@@ -1,68 +1,75 @@
-.view{
+.view {
     background: url(../img/view/view.png);
     background-position: center;
     background-size: cover;
 }
-.title h2{
+
+.title h2 {
     color: var(--accent, #D4C17F);
-font-family: Playfair Display;
-font-size: 36px;
-font-weight: 700;
-margin: 0;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
 
 }
-.title p{
+
+.title p {
     color: #FFF;
-font-family: Raleway;
-font-size: 16px;
-margin: 50px 0 0 0;
-}
-.id input ,
-.id p{
-font-family: Raleway;
-text-align: center;
-width: 255px;
+    font-family: Raleway;
+    font-size: 16px;
+    margin: 50px 0 0 0;
 }
 
-.id p{
+.id input,
+.id p {
+    font-family: Raleway;
+    text-align: center;
+    width: 255px;
+}
+
+.id p {
     margin-top: 46px;
     color: #E7E7E7;
     font-size: 16px;
 }
-.id input{
-    opacity: .2;
-    background-color: #FFF;
-    width: 255px; 
+
+.id input {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 255px;
     height: 50px;
     border-radius: 2px;
     border: 1px solid #838789;
-    color: #FFF;
+    color: #fff;
     font-size: 14px;
 }
-.id button{
+
+.id button {
     color: #FFF;
-text-align: center;
-font-family: Raleway;
-font-size: 16px;
-font-weight: 700;
-background: var(--accent, #D4C17F);
-margin-top: 35px;
-max-height: max-content;
-width: 255px; 
-height: 60px;
-border-radius: 4px;
-border: 1px solid #838789;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    background: var(--accent, #D4C17F);
+    margin-top: 35px;
+    max-height: max-content;
+    width: 255px;
+    height: 60px;
+    border-radius: 4px;
+    border: 1px solid #838789;
 
 }
-.id button:hover{
-background: #D4C17F;
-opacity: .6 ;
+
+.id button:hover {
+    background: #D4C17F;
+    opacity: .6;
 }
-.view__contant{
+
+.view__contant {
     gap: 35px;
     display: flex;
 }
-.id{
+
+.id {
     display: flex;
     gap: 30px;
     text-align: center;
