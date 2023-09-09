@@ -11,6 +11,9 @@
 @import url(./history.css);
 @import url(./apartments.css);
 @import url(./view.css);
+@import url(./details.css);
+
+
 
 .container {
     max-width: 1110px;
