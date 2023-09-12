@@ -1,57 +1,68 @@
-.history__content h1{
+.history__content h1 {
     color: var(--accent, #D4C17F);
-text-align: center;
-font-family: Playfair Display;
-font-size: 48px;
-font-weight: 700;
-margin: 0 auto;
-padding-top: 200px;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0 auto;
+    padding-top: 200px;
 }
-.history__content nav a{
+
+.history__content nav a {
     color: #FFF;
-text-align: center;
-font-family: Raleway;
-font-size: 18px;
-text-decoration: none;
-transition: .3s;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    text-decoration: none;
+    transition: .3s;
 }
-.history__content nav a:hover{
-    color: rgb(187, 172, 187); 
+
+.history__content nav a:hover {
+    color: rgb(187, 172, 187);
 }
-.history{
+
+.history {
     background: url('../img/history/Rectangle.png');
     background-position: center;
     background-size: cover;
 }
-.history__content{
+
+.history__content {
     text-align: center;
     margin: auto;
     max-width: 582px;
 }
-.mouse{
+
+.mouse {
     margin-top: 100px;
     margin-bottom: 200px;
+    cursor: pointer;
 }
+
 .history__content nav {
     justify-content: space-between;
     display: flex;
     row-gap: 30px;
     padding-bottom: 74px;
 }
+
 .history-bottom {
-align-items: center;
-gap: 15px;
-display: flex;
+    align-items: center;
+    gap: 15px;
+    display: flex;
 }
 
+.history-bottom img {
+    cursor: pointer;
+}
 
+@media screen and (max-width:600px) {
+    .history__content nav {
+        flex-direction: column;
+        align-items: center;
+    }
 
-@media  screen and (max-width:600px) {
-.history__content nav{
-    flex-direction: column;
-    align-items: center;
-} 
-.history__content h1{
-    font-size: 35px;
-}   
+    .history__content h1 {
+        font-size: 35px;
+    }
 }

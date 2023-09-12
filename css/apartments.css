@@ -6,6 +6,11 @@ margin-top: 53px;
 font-weight: 300;
 margin-bottom: 0;
 width: 193px;
+cursor: pointer;
+transition: .3s;
+}
+.pros p:hover{
+    color: rgb(187, 172, 187);
 }
 .pros{
     display: flex;
@@ -16,7 +21,9 @@ width: 193px;
    flex-wrap: wrap;
    justify-content: center;
    padding-bottom: 120px;
- 
+}
+.pros img{
+    cursor: pointer;
 }
 .apartments{
     position: relative;

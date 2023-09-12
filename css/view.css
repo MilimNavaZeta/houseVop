@@ -35,11 +35,12 @@
     width: 255px;
     height: 50px;
     border-radius: 2px;
-    border: 1px solid #838789;
+    border: 0 solid #838789;
     color: #fff;
     font-size: 14px;
     font-family: Raleway;
     text-align: center;
+    padding: 0;
 }
 
 .id button {
